@@ -28,8 +28,8 @@ public class GraphController : MonoBehaviour {
             Vertices.Add(vertex);
 
             vertex.transform.Translate(move);
-            move.x += Random.Range(1, 5);
-            move.y += Random.Range(1, 5);
+            move.x += Random.Range(1f, 5f);
+            move.y += Random.Range(1f, 2f);
 
             if(i > 0)
             {

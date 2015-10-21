@@ -6,7 +6,7 @@ public class ConcentricRingMeshConstructor : MonoBehaviour {
 
     public int Rings = 10;
 
-    private float RingThickness = 0.1f;
+    public float RingThickness = 0.1f;
 
     private int resolution = 360;
     
